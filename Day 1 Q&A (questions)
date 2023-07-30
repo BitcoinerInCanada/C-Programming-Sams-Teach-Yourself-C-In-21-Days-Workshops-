@@ -1,0 +1,11 @@
+Quiz
+1. Give three reasons why C is the best choice of a programming language.
+2. What does the compiler do?
+3. What are the steps in the Program Development Cycle?
+4. What command do you need to enter in order to compile a program called program1.c with your compiler?
+5. Does your compiler do both the linking and compiling with just one command, or do you have to enter separate commands?
+6. What extension should you use for your C source files?
+7. Is FILENAME.TXT a valid name for a C source file?
+8. If you execute a program that you have compiled and it doesn’t work as you expected, what should you do?
+9. What is machine language?
+10. What does the linker do?
