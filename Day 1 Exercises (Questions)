@@ -1,0 +1,60 @@
+Exercises
+
+    1. Use your text editor to look at the object file created by Listing 1.1. Does the object file look like the source file? (Don't save this file when you exit the editor.)
+
+    2. Enter the following program and compile it. What does this program do? (Don't include the line numbers or colons.)
+
+    1: #include <stdio.h>
+    2:
+    3: int radius, area;
+    4:
+    5: main()
+    6: {
+    7:     printf( "Enter radius (i.e. 10): " );
+    8:     scanf( "%d", &radius );
+    9:     area = (int) (3.14159 * radius * radius);
+    10:    printf( "\n\nArea = %d\n", area );
+    11:    return 0;
+    12: }
+
+    3. Enter and compile the following program. What does this program do?
+
+    1: #include <stdio.h>
+    2:
+    3: int x,y;
+    4:
+    5: main()
+    6: {
+    7:     for ( x = 0; x < 10; x++, printf( "\n" ) )
+    8:         for ( y = 0; y < 10; y++ )
+    9:             printf( "X" );
+    10:
+    11:    return 0;
+    12: }
+
+    4. BUG BUSTER: The following program has a problem. Enter it in your editor and compile it. Which lines generate error messages?
+
+    1: #include <stdio.h>
+    2:
+    3: main();
+    4: {
+    5:     printf( "Keep looking!" );
+    6:     printf( "You\'ll find it!\n" );
+    7:     return 0;
+    8: }
+
+    5. BUG BUSTER: The following program has a problem. Enter it in your editor and compile it. Which lines generate problems?
+
+    1: #include <stdio.h>
+    2:
+    3: main()
+    4: {
+    5:     printf( "This is a program with a " );
+    6:     do_it( "problem!");
+    7:     return 0;
+    8: }
+
+    6. Make the following change to the program in exercise 3. Recompile and rerun this program. What does the program do now?
+
+    9: printf( "%c", 1 );
+

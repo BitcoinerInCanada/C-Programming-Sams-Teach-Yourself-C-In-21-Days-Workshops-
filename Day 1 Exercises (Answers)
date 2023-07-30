@@ -1,0 +1,21 @@
+Exercises
+
+    1. When you look at the object file, you see many unusual characters and other gibberish. Mixed in with the gibberish, you also see pieces of the source file.
+
+    2. This program calculates the area of a circle. It prompts the user for the radius and then displays the area.
+
+    3. This program prints a 10*10 block made of the character X. A similar program is covered on Day 6, "Basic Program Control."
+
+    4. This program generates a compiler error. You should get a message similar to the following:
+
+    Error: ch1ex4.c: Declaration terminated incorrectly
+
+    This error is caused by the semicolon at the end of line 3. If you remove the semicolon, this program should compile and link correctly.
+
+    5. This program compiles OK, but it generates a linker error. You should get a message similar to the following:
+
+    Error: Undefined symbol _do_it in module...
+
+    This error occurs because the linker can't find a function called do_it. To fix this program, change do_it to printf.
+
+    6. Rather than printing a 10*10 block filled with the character X, the program now prints a 10*10 block of smiley faces.
